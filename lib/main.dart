@@ -122,7 +122,7 @@ class _InicioScreenState extends State<InicioScreen> {
             child: Center(
               child: Text(
                 "Tus finanzas son nuestra prioridad",
-                style: TextStyle(fontSize: 30,
+                style: TextStyle(fontSize: 20,
                     color: Colors.white,
                     fontWeight: FontWeight.bold),
               ),
