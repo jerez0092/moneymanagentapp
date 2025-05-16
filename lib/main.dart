@@ -197,7 +197,7 @@ class CreditosScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("ESIT\nDesarrollado por el grupo 32 \n\nIntegrantes:\n\nLuis Enrique Molina \nNohelia Elisa Gomez \nHelen Maria Fuentes \nIris Soraya Mulato \nMarvin Josue Ayala \nAlexis Rodrigo Cartagena \n\nVersion: 1.0.1 \n\nGracias por usar nuestra aplicación",
+            Text("ESIT\nDesarrollado por el grupo 32 \n\nIntegrantes:\n\nLuis Enrique Molina \nNoelia Elisa Gomez \nHelen Maria Fuentes \nIris Soraya Mulato \nMarvin Josue Ayala \nAlexis Rodrigo Cartagena \n\nVersion: 1.0.1 \n\nGracias por usar nuestra aplicación",
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
             SizedBox(height: 10),
             Text("App enfocada en la gestión de gastos"),
@@ -213,12 +213,13 @@ class CreditosScreen extends StatelessWidget {
   }
 }
 
-// Pantalla de Gestión de Gastos con formulario
+// Pantalla de Gestión de Gastos.
 class GestionGastosScreen extends StatefulWidget {
   @override
   _GestionGastosScreenState createState() => _GestionGastosScreenState();
 }
 
+// Lista de Gastos, formulario y eliminación de gastos
 class _GestionGastosScreenState extends State<GestionGastosScreen> {
   final dbHelper = DatabaseHelper.instance;
   List<Map<String, dynamic>> gastos = [];
@@ -383,4 +384,5 @@ class _GestionGastosScreenState extends State<GestionGastosScreen> {
   }
 }
 
-//muchas de las clases estan nombradas en ingles porque el material de apoyo estaba en ingles y para practicar se uso ese formato.
+//muchas de las clases estan nombradas en ingles porque el material de apoyo estaba en
+//ingles y para practicar se uso ese formato.
